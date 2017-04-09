@@ -1,0 +1,29 @@
+{
+  "name": "servermonitoring",
+  "version": "1.0.0",
+  "description": "ExpressJS application to monitor server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrats/ServerMonitoring.git"
+  },
+  "keywords": [
+    "Server",
+    "Monitoring",
+    "Dashboard",
+    "ExpressJS",
+    "AngularJS"
+  ],
+  "author": "Nishant Rathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrats/ServerMonitoring/issues"
+  },
+  "homepage": "https://github.com/nrats/ServerMonitoring#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
