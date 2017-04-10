@@ -1,5 +1,6 @@
 var express = require('express')
 var app = express()
+app.use(express.static('public'))
 
 app.get('/stats/:startTime/:endTime/:duration', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
