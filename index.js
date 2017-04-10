@@ -22,7 +22,7 @@ function generateResponse(startTime, endTime, duration, serverID) {
         packetUpperBound = 1000,
         errorUpperBound = 5;
 
-    for (var ts = startTime; ts < endTime; ts += 1000) {
+    for (var ts = startTime; ts < endTime; ts += duration) {
         records.push({
             timestamp: (new Date(ts)).toISOString(),
             memory_usage: getRandomNumber(memUpperBound),
