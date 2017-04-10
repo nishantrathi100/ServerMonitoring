@@ -1,6 +1,7 @@
 # ServerMonitoring
 
-##Installing
+## Installation
+
 Follow the below steps:
 - git clone https://github.com/nrats/ServerMonitoring.git
 - cd ServerMonitoring
